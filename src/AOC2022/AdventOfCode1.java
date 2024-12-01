@@ -1,10 +1,12 @@
+package AOC2022;
+
 import java.io.File;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class AdventOfCode1 {
     public static void main(String[] args) {
-        File input = new File("input.txt");
+        File input = new File("AOC-2022-inputs/input.txt");
         Stack<Integer> food = new Stack<>();
         try {
             Scanner inputScanner = new Scanner(input);

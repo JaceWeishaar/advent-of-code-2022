@@ -1,3 +1,5 @@
+package AOC2022;
+
 import java.io.File;
 import java.util.*;
 
@@ -8,7 +10,7 @@ public class AdventOfCode5 {
     }
 
     public static void part1(int columns) {
-        File input = new File("input5.txt");
+        File input = new File("AOC-2022-inputs/input5.txt");
         StringBuilder total = new StringBuilder();
         Deque<Character>[] crates = new Deque[columns];
         for(int i = 0; i < columns; i++)
@@ -52,7 +54,7 @@ public class AdventOfCode5 {
     }
 
     public static void part2(int columns) {
-        File input = new File("input5.txt");
+        File input = new File("AOC-2022-inputs/input5.txt");
         StringBuilder total = new StringBuilder();
         Deque<Character>[] crates = new Deque[columns];
         for(int i = 0; i < columns; i++)

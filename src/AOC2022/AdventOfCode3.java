@@ -1,3 +1,5 @@
+package AOC2022;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +12,7 @@ public class AdventOfCode3 {
 
     public static void part1() {
         ArrayList<Character> alphabet = getAlphabetArray();
-        File input = new File("input3.txt");
+        File input = new File("AOC-2022-inputs/input3.txt");
         int total = 0;
         try {
             Scanner scanner = new Scanner(input);
@@ -32,7 +34,7 @@ public class AdventOfCode3 {
     }
 
     public static void part2() {
-        File input = new File("input3.txt");
+        File input = new File("AOC-2022-inputs/input3.txt");
         ArrayList<Character> alphabet = getAlphabetArray();
         int total = 0;
         try {

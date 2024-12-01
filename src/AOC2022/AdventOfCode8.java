@@ -1,3 +1,5 @@
+package AOC2022;
+
 import java.io.File;
 import java.util.*;
 
@@ -12,7 +14,7 @@ public class AdventOfCode8 {
     }
 
     public static void part1() {
-        File input = new File("input8.txt");
+        File input = new File("AOC-2022-inputs/input8.txt");
         int total = 0;
 
         try {

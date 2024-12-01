@@ -1,3 +1,5 @@
+package AOC2022;
+
 import java.io.File;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ public class AdventOfCode6 {
     }
 
     public static void part1() {
-        File input = new File("input6.txt");
+        File input = new File("AOC-2022-inputs/input6.txt");
         int total = 0;
 
         try {
@@ -35,7 +37,7 @@ public class AdventOfCode6 {
     }
 
     public static void part2() {
-        File input = new File("input6.txt");
+        File input = new File("AOC-2022-inputs/input6.txt");
         int total = 0;
 
         try {
